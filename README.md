@@ -1,2 +1,0 @@
-# demofrontend
-git  demo pratice
