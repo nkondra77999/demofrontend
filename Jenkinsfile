@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Checking Disk Space how can free..'
+                echo 'Testing Disk Space how can free..'
                 sh 'free -m'
             }
         }
