@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Testing disk space....'
+                echo 'Checking disk space....'
                 sh 'df -h'
             }
         }
