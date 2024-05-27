@@ -11,13 +11,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing Disk Space how can free..'
+                echo 'Checking Disk Space how can free..'
                 sh 'free -m'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Testing disk space....'
+                echo 'Checking disk space....'
                 sh 'df -h'
             }
         }
