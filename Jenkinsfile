@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Checking Disk Space Third updated 03.08.2024..'
                 sh 'free -m'
-            }
+           }
         }
         stage('Deploy') {
             steps {
@@ -23,3 +23,6 @@ pipeline {
         }
     }
 }
+
+
+
