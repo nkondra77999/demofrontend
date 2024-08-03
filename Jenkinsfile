@@ -1,25 +1,22 @@
-
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                sh 'cat /etc/os-release'
-            
+                echo 'Building...'
+            }
         }
         stage('Test') {
             steps {
-                echo 'Checking Disk Space fourth updated 03.08.2024..'
-                sh 'free -m'
-           }
+                echo 'Testing...'
+            }
         }
         stage('Deploy') {
             steps {
-                echo 'Checking disk space....'
-                sh 'df -h'
+                echo 'Deploying...'
             }
         }
     }
 }
+
