@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Checking Disk Space how can free..'
+                echo 'Checking Disk Space updated 03.08.2024..'
                 sh 'free -m'
             }
         }
